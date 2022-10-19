@@ -1,0 +1,248 @@
+@import url('../css/microlight.css');
+
+body {
+    background-image: url('../img/background/bg-body.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-position-y: 0.0em;
+    background-position-x: 6em;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Layout Doc
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.container-fluid {
+    padding: 0 2.8rem 0 2.8rem;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Search Doc
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* Form search */
+
+.DocSearch-Button {
+    width: 100%;
+    height: 38px;
+}
+
+.bd-search {
+    position: absolute;
+    top: 0.800rem;
+    left: 55%;
+    width: 100px;
+    margin-left: -100px;
+}
+
+.bd-search {
+    width: 209px;
+    margin-left: -165px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.DocSearch-Button {
+    align-items: center;
+    background: var(--white);
+    border: 1px solid var(--secondary-100);
+    border-radius: 8px;
+    color: var(--secondary-700);
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    height: 44px;
+    justify-content: space-between;
+    margin: 0 0 0 100px;
+    user-select: none;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.DocSearch-Button:hover {
+    border: 1px solid var(--secondary-300);
+}
+
+/* icon search */
+.DocSearch-Button .DocSearch-Search-Icon {
+    opacity: .65;
+}
+
+.DocSearch-Button .DocSearch-Search-Icon {
+    color: var(--secondary-500);
+}
+
+.DocSearch-Search-Icon {
+    stroke-width: 1.6;
+}
+
+.DocSearch-Button-Keys {
+    min-width: 0;
+    padding: 4px;
+    background: var(--white);
+    border-radius: 6px;
+    color: var(--secondary-900);
+    border: 1px solid var(--secondary-300);
+}
+
+.DocSearch-Button-Key {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.DocSearch-Button-Key {
+    align-items: center;
+    background: var(--white);
+    border-radius: 3px;
+    color: var(--secondary-900);
+    display: flex;
+    height: 13px;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+    border: 0;
+    left: 1px;
+}
+
+.DocSearch-Button-Keys {
+    display: flex;
+    min-width: calc(40px + 0.1em);
+}
+
+.DocSearch-Button-Placeholder {
+    color: var(--secondary-500);
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Navbar Doc
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+header.navbar-doc {
+    padding: 0.9rem 0;
+    border-bottom: 1.5px solid;
+    color: var(--secondary-200);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(18.5px);
+    background-color: hsla(0, 0%, 100%, .6);
+}
+
+
+header.navbar .nav-item,
+header.navbar .nav-item a {
+    font-size: var(--text-medium-font-size);
+    font-weight: bold;
+    line-height: var(--text-medium-font-line-height-text-medium);
+    color: var(--secondary-900);
+}
+
+header.navbar li.nav-item .btn-link {
+    font-size: var(--small-text-medium-font-size);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--small);
+    color: var(--secondary-600);
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Sidenav Doc
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.sidenav-menu-heading,
+.sidenav-menu-item {
+    padding-left: 2.8rem;
+}
+
+.sidenav-menu-heading {
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.sidenav-menu-list-items {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.sidenav-menu-item {
+    font-size: var(--text-medium-font-size);
+    font-weight: var(--font-weight-medium);
+    text-transform: capitalize;
+}
+
+.sidenav-menu-item {
+    color: var(--secondary-900);
+}
+
+.sidenav-menu-item:hover {
+    color: var(--primary-500);
+}
+
+.sidenav-menu-item.active {
+    color: var(--primary-500);
+}
+
+.sidenav-menu-heading {
+    color: #a7aeb8;
+}
+
+.p-nav-item {
+    padding-left: 2.4em;
+}
+
+.offcanvas-sidenav-mobile .offcanvas-body a.nav-link {
+    font-size: var(--text-medium-font-size);
+    line-height: var(----text-medium-font-line-height-text-medium);
+    font-weight: bold;
+    color: var(--secondary-700);
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Documentation Content Doc
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.doc-content h4.sub-title-content {
+    font-size: var(--extra-large-text-medium-font-size);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--extra-large-text-medium-font-line-height);
+    color: var(--secondary-900);
+}
+
+.doc-content p {
+    font-size: var(--text-medium-font-size);
+    line-height: text-medium-font-line-height-text-regular;
+    font-weight: var(--font-weight-regular);
+    color: var(--secondary-600);
+}
+
+
+section.contents ul.list:first-of-type {
+    position: fixed;
+    right: 10px;
+    top: 100px;
+    width: 200px;
+    padding: 0;
+    padding-right: 20px;
+    margin: 0;
+    list-style: none;
+    border-left: 1px solid var(--secondary-300);
+    padding-left: 20px;
+}
+
+section.contents ul.list:first-of-type li a {
+    display: block;
+    color: var(--secondary-900);
+    text-decoration: none;
+    font-size: var(--text-medium-font-size);
+}
+
+a.scroll-item {
+    padding-bottom: 0.5em;
+}
