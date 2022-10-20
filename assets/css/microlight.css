@@ -2393,7 +2393,7 @@ section.settings .card-body a:hover {
 }
 
 .modal-backdrop {
-    background-color: var(--primary-200);
+    background-color: var(--primary-100);
 }
 
 
@@ -2402,7 +2402,6 @@ section.settings .card-body a:hover {
     border: none;
     /* transition: all 500ms cubic-bezier(.47, 1.64, .41, .8);
     transform: scale(1); */
-
 }
 
 .modal-content.custom i {
