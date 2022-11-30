@@ -36,19 +36,20 @@
 
 
     <!-- Icon Microlight -->
-    <link rel="shortcut icon" href="assets/img/brand/icon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/img/brand/icon.svg" type="image/x-icon">
     <!-- Custom CSS Files -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 
     <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/microlight.css">
+    <link rel="stylesheet" href="/assets/css/microlight.css">
     <!-- Doc CSS -->
-    <link rel="stylesheet" href="assets/css/doc.css">
+    <link rel="stylesheet" href="/assets/css/doc.css">
 
     <!-- CSS Libraries -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <!-- <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css"> -->
-    <link rel="stylesheet" href="https://demo-microwlights.netlify.app/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet"
+        href="https://demo-microwlights.netlify.app/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
 </head>
 
@@ -59,7 +60,7 @@
         <!-- Navbar for desktop -->
         <div class="container-fluid">
             <a class="navbar-brand p-0 me-0 me-lg-2 d-none d-lg-flex" href="/">
-                <img src="assets/img/brand/brand.svg" alt="logo">
+                <img src="/assets/img/brand/brand.svg" alt="logo">
             </a>
             <div class="d-lg-none mt-n3">
                 <button class="navbar-toggler ms-sm-3 border-0 shadow-none" type="button" data-bs-toggle="collapse"
@@ -72,7 +73,7 @@
                 class="navbar-nav order-lg-2 me-lg-2 ms-auto d-none d-lg-flex align-items-center justify-content-center">
                 <li class="nav-item col-6 col-lg-auto me-3">
                     <a class="nav-link py-2 px-0 px-lg-2 bg-secondary rounded-pill d-inline-flex align-items-center justify-content-center bg-opacity-10 text-secondary-700"
-                        style="width: 35px; height: 35px;" href="https://github.com/twbs" target="_blank"
+                        style="width: 35px; height: 35px;" href="https://github.com/designwitharifin" target="_blank"
                         rel="noopener">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="navbar-nav-svg"
                             viewBox="0 0 512 499.36" role="img">
@@ -86,7 +87,7 @@
                 </li>
                 <li class="nav-item col-6 col-lg-auto me-3">
                     <a class="nav-link py-2 px-0 px-lg-2 bg-secondary rounded-pill d-inline-flex align-items-center justify-content-center bg-opacity-10 text-secondary-700"
-                        style="width: 35px; height: 35px;" href="https://twitter.com/getbootstrap" target="_blank"
+                        style="width: 35px; height: 35px;" href="https://twitter.com/microwlights" target="_blank"
                         rel="noopener">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="navbar-nav-svg"
                             viewBox="0 0 512 416.32" role="img">
@@ -100,7 +101,7 @@
                 </li>
                 <li class="nav-item col-6 col-lg-auto">
                     <a class="nav-link py-2 px-0 px-lg-2 bg-secondary rounded-pill d-inline-flex align-items-center justify-content-center bg-opacity-10 text-secondary-700"
-                        style="width: 35px; height: 35px;" href="https://twitter.com/getbootstrap" target="_blank"
+                        style="width: 35px; height: 35px;" href="https://dribbble.com/designwitharifin" target="_blank"
                         rel="noopener">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="navbar-nav-svg"
                             viewBox="0 0 24 24" style="fill: #1F2733;transform: msFilter">
@@ -135,9 +136,12 @@
                             <h6 class="dropdown-header">v1 releases</h6>
                         </li>
                         <li>
-                            <a class="dropdown-item current" aria-current="true" href="/">
+                            <a class="dropdown-item current" aria-current="true" href="/docs/1.0.0/">
                                 Latest (1.0.0)
                             </a>
+                            <!-- <a class="dropdown-item fw-light" href="/docs/1.1.0/">
+                                v1.1.0
+                            </a> -->
                         </li>
                     </ul>
                 </li>
@@ -168,20 +172,20 @@
             <nav class="collapse navbar-collapse d-none d-lg-flex ps-4 ms-4" id="navbarNav">
                 <ul class="navbar-nav navbar-nav-scroll mt-1 p-nav-item">
                     <li class="nav-item pe-2">
-                        <a class="nav-link" href="/">Home</a>
+                        <a class="nav-link" href="https://microwlights.ml/">Home</a>
                     </li>
                     <li class="nav-item pe-2">
-                        <a class="nav-link" href="#">Getting started</a>
+                        <a class="nav-link" href="https://microwlights.ml/getting-started/">Getting started</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="soon/">Examples</a>
+                        <a class="nav-link" href="https://github.com/designwitharifin/microwlights">Download</a>
                     </li>
                 </ul>
             </nav>
 
             <div class="d-lg-none mt-n3">
                 <a class="navbar-brand" href="/">
-                    <img src="assets/img/brand/brand.svg" alt="logo">
+                    <img src="/assets/img/brand/brand.svg" alt="logo">
                 </a>
             </div>
 
@@ -208,17 +212,17 @@
                 <div class="nav__list">
                     <div class="sidenav-menu-heading pt-5">Welcome</div>
                     <div class="sidenav-menu-list-items">
-                        <a href="#" onclick="myFunction()" class="sidenav-menu-item active">
+                        <a href="./docs/1.0.0/welcome/" class="sidenav-menu-item active">
                             <span>Overview</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/welcome/license.html" class="sidenav-menu-item">
                             <span>License</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/terms.html" class="sidenav-menu-item">
                             <span>Terms & condition</span>
                         </a>
                     </div>
@@ -229,17 +233,17 @@
                 <div class="nav__list">
                     <div class="sidenav-menu-heading mt-5">Starter</div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/libraies.html" class="sidenav-menu-item">
                             <span>Source libraries</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/folder.html" class="sidenav-menu-item">
                             <span>Folder</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/thechnology.html" class="sidenav-menu-item">
                             <span>Thechnology</span>
                         </a>
                     </div>
@@ -247,120 +251,146 @@
                 <!-- //Starter -->
 
                 <!-- Components -->
-                <div class="nav__list pb-5 mb-3">
+                <div class="nav__list">
                     <div class="sidenav-menu-heading mt-5">Components</div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/accordion.html" class="sidenav-menu-item">
                             <span>Accordion</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/alert.html" class="sidenav-menu-item">
                             <span>Alert</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/badge.html" class="sidenav-menu-item">
                             <span>Badge</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/breadcrumb.html" class="sidenav-menu-item">
                             <span>Breadcrumb</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/buttons.html" class="sidenav-menu-item">
                             <span>Buttons</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/cards.html" class="sidenav-menu-item">
                             <span>Cards</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/carousel.html" class="sidenav-menu-item">
                             <span>Carousel</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/collapse.html" class="sidenav-menu-item">
                             <span>Collapse</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/dropdown.html" class="sidenav-menu-item">
                             <span>Dropdown</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/form.html" class="sidenav-menu-item">
                             <span>Form</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/list.html" class="sidenav-menu-item">
                             <span>List Group</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/media.html" class="sidenav-menu-item">
                             <span>Media Object</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/modal.html" class="sidenav-menu-item">
                             <span>Modal</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/nav.html" class="sidenav-menu-item">
                             <span>Nav</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/navbar.html" class="sidenav-menu-item">
                             <span>Navbar</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/pagination.html" class="sidenav-menu-item">
                             <span>Pagination</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/popover.html" class="sidenav-menu-item">
                             <span>Popover</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/progress.html" class="sidenav-menu-item">
                             <span>Progress</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/table.html" class="sidenav-menu-item">
                             <span>Table</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/toasts.html" class="sidenav-menu-item">
                             <span>Toasts</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/tooltip.html" class="sidenav-menu-item">
                             <span>Tooltip</span>
                         </a>
                     </div>
                     <div class="sidenav-menu-list-items">
-                        <a href="/" class="sidenav-menu-item">
+                        <a href="/docs/1.0.0/typography.html" class="sidenav-menu-item">
                             <span>Typography</span>
                         </a>
                     </div>
                 </div>
                 <!-- //Components -->
+
+                <!-- Utilities -->
+                <div class="nav__list pb-5 mb-3">
+                    <div class="sidenav-menu-heading mt-5">Utilities</div>
+                    <div class="sidenav-menu-list-items">
+                        <a href="/docs/1.0.0/libraies.html" class="sidenav-menu-item">
+                            <span>Color</span>
+                        </a>
+                    </div>
+                    <div class="sidenav-menu-list-items">
+                        <a href="/docs/1.0.0/folder.html" class="sidenav-menu-item">
+                            <span>Text</span>
+                        </a>
+                    </div>
+                    <div class="sidenav-menu-list-items">
+                        <a href="/docs/1.0.0/thechnology.html" class="sidenav-menu-item">
+                            <span>Border</span>
+                        </a>
+                    </div>
+                    <div class="sidenav-menu-list-items">
+                        <a href="/docs/1.0.0/thechnology.html" class="sidenav-menu-item">
+                            <span>Elevation</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- //Utilities -->
 
             </div>
         </nav>
@@ -373,38 +403,31 @@
         <div class="offcanvas-header pb-0 mb-0">
             <h5 class="offcanvas-title" id="offcanvasSidenavMobileLabel">
                 <a class="navbar-brand" href="/">
-                    <img src="assets/img/brand/brand.svg" alt="logo">
+                    <img src="/assets/img/brand/brand.svg" alt="logo">
                 </a>
             </h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body pt-0 mt-0">
             <hr class="d-lg-none text-secondary">
             <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav">
                 <li class="nav-item col-6 col-lg-auto">
-                    <a class="nav-link py-2 px-0 px-lg-2">Home</a>
+                    <a class="nav-link py-2 px-0 px-lg-2" href="https://microwlights.ml/">Home</a>
                 </li>
                 <li class="nav-item col-6 col-lg-auto">
-                    <a class="nav-link py-2 px-0 px-lg-2" href="#">Getting started</a>
+                    <a class="nav-link py-2 px-0 px-lg-2" href="https://microwlights.ml/getting-started/">Getting
+                        started</a>
                 </li>
                 <li class="nav-item col-6 col-lg-auto">
-                    <a class="nav-link py-2 px-0 px-lg-2" href="https://icons.getbootstrap.com/">Examples</a>
-                </li>
-                <li class="nav-item col-6 col-lg-auto">
-                    <a class="nav-link py-2 px-0 px-lg-2" href="https://themes.getbootstrap.com/"
-                        onclick="ga('send', 'event', 'Navbar', 'Community links', 'Themes');" target="_blank"
-                        rel="noopener">Themes</a>
-                </li>
-                <li class="nav-item col-6 col-lg-auto">
-                    <a class="nav-link py-2 px-0 px-lg-2" href="https://blog.getbootstrap.com/"
-                        onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');" target="_blank"
-                        rel="noopener">Blog</a>
+                    <a class="nav-link py-2 px-0 px-lg-2"
+                        href="https://github.com/designwitharifin/microwlights">Download</a>
                 </li>
             </ul>
             <hr class="d-lg-none text-secondary">
             <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
                 <li class="nav-item col-6 col-lg-auto">
-                    <a class="nav-link py-2 px-0 px-lg-2" href="https://github.com/twbs" target="_blank" rel="noopener">
+                    <a class="nav-link py-2 px-0 px-lg-2" href="https://github.com/designwitharifin" target="_blank"
+                        rel="noopener">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="navbar-nav-svg"
                             viewBox="0 0 512 499.36" role="img">
                             <title>GitHub</title>
@@ -416,7 +439,7 @@
                     </a>
                 </li>
                 <li class="nav-item col-6 col-lg-auto">
-                    <a class="nav-link py-2 px-0 px-lg-2" href="https://twitter.com/getbootstrap" target="_blank"
+                    <a class="nav-link py-2 px-0 px-lg-2" href="https://twitter.com/microwlights" target="_blank"
                         rel="noopener">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="navbar-nav-svg"
                             viewBox="0 0 512 416.32" role="img">
@@ -429,7 +452,7 @@
                     </a>
                 </li>
                 <li class="nav-item col-6 col-lg-auto">
-                    <a class="nav-link py-2 px-0 px-lg-2" href="https://opencollective.com/bootstrap" target="_blank"
+                    <a class="nav-link py-2 px-0 px-lg-2" href="https://dribbble.com/designwitharifin" target="_blank"
                         rel="noopener">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="navbar-nav-svg"
                             viewBox="0 0 24 24" style="fill: #1F2733;transform: msFilter">
@@ -449,7 +472,7 @@
 
                 <li class="nav-item dropdown">
                     <button type="button"
-                        class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle text-secondary-700"
+                        class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle text-secondary-700 shadow-none"
                         data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
                         <span class="d-lg-none" aria-hidden="true">Microwlights</span><span
                             class="visually-hidden">Microwlights&nbsp;</span> v1.0.0 <span
@@ -461,7 +484,7 @@
                             <h6 class="dropdown-header">v1 releases</h6>
                         </li>
                         <li>
-                            <a class="dropdown-item current" aria-current="true" href="/">
+                            <a class="dropdown-item current" aria-current="true" href="/docs/1.0.0/">
                                 Latest (1.0.0)
                             </a>
                         </li>
@@ -504,6 +527,13 @@
                                 to
                                 the marketplace (such as CodeCanyon).
                             </p>
+                        </div>
+                        <div class="py-3">
+                            <hr class="text-secondary-500">
+                        </div>
+                        <div class="next float-end">
+                            <a href="#" class="btn btn-white btn-sm shadow-md sm-text-rg">Next: License <i
+                                    class='align-middle bx bxs-chevron-right'></i></a>
                         </div>
                         <div id="license" style="padding-top:50px">
                             <h4 class="sub-title-content mt-4">License</h4>
@@ -644,655 +674,796 @@
                                         stroke-linejoin="round"></path>
                                 </svg>
                             </label>
-                            <input class="DocSearch-Input" aria-autocomplete="both" aria-labelledby="docsearch-label"
-                                id="docsearch-input" autocomplete="off" autocorrect="off" autocapitalize="off"
-                                enterkeyhint="search" spellcheck="false" placeholder="Search documentation"
-                                maxlength="64" type="text" value="">
-
+                            <input type="text" class="DocSearch-Input" aria-autocomplete="both"
+                                aria-labelledby="docsearch-label" id="docsearch-input" autocomplete="off"
+                                autocorrect="off" autocapitalize="off" enterkeyhint="search" spellcheck="false"
+                                placeholder="Search documentation" maxlength="64" type="text" value="">
                         </form>
                     </header>
                     <div class="modal-body p-4">
+                        <!-- Notfound documentation search -->
+                        <section class="container d-flex flex-column align-items-center position-relative">
+                            <div class="text-center" id="notFoundItem">
+                                <div class="py-1">
+                                    <p class="md-text-md">No result "<strong id="results"></strong>"</p>
+                                </div>
+                            </div>
+                        </section>
                         <div class="search-results">
-                            <div class="results-item">
-                                <div class="label fw-bold">Welcome</div>
-                                <div class="card mt-2">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Overview</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
+                            <div id="allProduct">
+                                <div class="results-item">
+                                    <div class="label fw-bold">Welcome</div>
+                                    <div class="card mt-2">
+                                        <!-- Overview -->
+                                        <a href="/docs/1.0.0/welcome/overview.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/welcome/overview.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Overview</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card mt-3">
+                                        <a href=/docs/1.0.0/welcome/license.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/welcome/license.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">License</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card mt-3">
+                                        <a href=/docs/1.0.0/welcome/terms.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/welcome/terms.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Terms & Condition</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">License</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
+                                <div class="results-item pt-4">
+                                    <div class="label fw-bold">Starter</div>
+                                    <div class="card mt-2">
+                                        <a href="http://">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;" href="https://" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Source Libraries</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/starter/folder.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/starter/folder.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Folder</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/starter/thechnology.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/starter/thechnology.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Technology</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Terms & Condition</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
+                                <div class="results-item pt-4">
+                                    <div class="label fw-bold">Components</div>
+                                    <!-- Accordion -->
+                                    <div class="card mt-2">
+                                        <a href="/docs/1.0.0/components/accordion.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/accordion.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Accordion</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Alert -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/alert.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/alert.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Alert</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Badge -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/badge.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/badge.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Badge</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Breadcrumb -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/breadcrumb.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/breadcrumb.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Breadcrumb</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Buttons -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/buttons.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/buttons.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Buttons</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!--  -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/cards.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/cards.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Cards</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Carousel -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/carousel.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/carousel.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Carousel</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Collapse -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/collapse.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/collapse.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Collapse</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Dropdown -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/dropdown.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/dropdown.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Dropdown</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Form -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/form.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/form.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Form</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- List Goup -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/list.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/list.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">List Goup</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Media Object -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/media.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/media.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Media Object</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Modal -->
+                                    <div class="card mt-3">
+                                        <a href="docs/1.0.0/components/modal.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="docs/1.0.0/components/modal.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Modal</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Nav -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/nav.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/nav.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Nav</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Navbar -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/navbar.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/navbar.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Navbar</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Pagination -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/pagination.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/pagination.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Pagination</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Popover -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/popover.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/popover.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Popover</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Progress -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/progress.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/progress.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Progress</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Table -->
+                                    <div class="card mt-3">
+                                        <a href="docs/1.0.0/components/table.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="docs/1.0.0/components/table.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Table</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Toasts -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/toasts.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/toasts.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Toasts</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Tooltip -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/tooltip.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/tooltip.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Tooltip</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Typography -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/components/typography.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/components/typography.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Typography</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="results-item pt-4">
-                                <div class="label fw-bold">Starter</div>
-                                <div class="card mt-2">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Source Libraries</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Folder</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Technology</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="results-item pt-4">
-                                <div class="label fw-bold">Components</div>
-                                <div class="card mt-2">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Accordion</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Alert</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Badge</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Breadcrumb</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Buttons</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Cards</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Carousel</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Collapse</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Dropdown</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Form</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">List Goup</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Media Object</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Modal</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Nav</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Navbar</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Pagination</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Popover</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Progress</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Table</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Toasts</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Tooltip</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Typography</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="results-item pt-4">
-                                <div class="label fw-bold">Utilities</div>
-                                <div class="card mt-2">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">Overview</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="card mt-3">
-                                    <a href="http://">
-                                        <div class="card-body rounded-0">
-                                            <span
-                                                class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
-                                                style="width: 26px; height: 26px;"
-                                                href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-                                                <i class='bx bx-hash text-secondary-500'></i>
-                                            </span>
-                                            <small class="ps-2 menu">License</small>
-                                            <span
-                                                class="float-end align-middle justify-content-center align-items-center align-items-middle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </a>
+                                <div class="results-item pt-4">
+                                    <div class="label fw-bold">Utilities</div>
+                                    <!-- Color -->
+                                    <div class="card mt-2">
+                                        <a href="/docs/1.0.0/utilities/color.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/utilities/color.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Color</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Text -->
+                                    <div class="card mt-3">
+                                        <a href="docs/1.0.0/utilities/text.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="docs/1.0.0/utilities/text.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Text</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Border -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/utilities/border.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/utilities/border.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Border</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- Elevation -->
+                                    <div class="card mt-3">
+                                        <a href="/docs/1.0.0/utilities/elevation.html">
+                                            <div class="card-body rounded-0">
+                                                <span
+                                                    class="nav-link py-2 px-0 px-lg-2 d-inline-flex align-items-center justify-content-center text-secondary-700 bg-icon"
+                                                    style="width: 26px; height: 26px;"
+                                                    href="/docs/1.0.0/utilities/elevation.html" target="_blank"
+                                                    rel="noopener">
+                                                    <i class='bx bx-hash text-secondary-500'></i>
+                                                </span>
+                                                <small class="ps-2 menu">Elevation</small>
+                                                <span
+                                                    class="float-end align-middle justify-content-center align-items-center align-items-middle">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-chevron-right"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1315,14 +1486,15 @@
 
 
 <!-- Template JS FIle -->
-<script src="assets/js/main.js"></script>
+<script src="/assets/js/main.js"></script>
 
 <!-- Js Libraries -->
 <!-- <script src="assets/js/apexchrats.js"></script> -->
-<script src="assets/js/moment.min.js"></script>
+<script src="/assets/js/moment.min.js"></script>
 <!-- <script src="assets/js/chart.js"></script> -->
-<script src="assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.min.js"></script>
 
+<!-- Modal ctrl+k -->
 <script>
     $(document).keydown(function (evt) {
         if (evt.keyCode == 75 && (evt.ctrlKey)) {
@@ -1331,12 +1503,53 @@
         }
     });
 </script>
-<!-- set default url -->
+
+<!-- Search -->
 <script>
-    function myFunction() {
-        window.open("docs/1.0.0/");
-    }
+    $(document).ready(function () {
+        // select notFound row
+        var notFound = $("#notFoundItem")
+        // make it hidden by default
+        notFound.hide();
+
+        $("#docsearch-input").on("keyup search", function () {
+            var value = $(this).val().toLowerCase()
+
+            // select all items
+            var allItems = $("#allProduct .results-item .card")
+            var subItem = $("#allProduct .results-item")
+
+            // get list of matched items, (do not toggle them)
+            var matchedItems = $("#allProduct .results-item .card").filter(function () {
+                return $(this).text().toLowerCase().indexOf(value) > -1
+            });
+
+            var matchedSub = $("#allProduct .results-item").filter(function () {
+                return $(this).text().toLowerCase().indexOf(value) > -1
+            });
+
+
+            // hide all items first
+            allItems.toggle(false)
+            subItem.toggle(false)
+
+            // then show matched items
+            matchedItems.toggle(true)
+            matchedSub.toggle(true)
+
+            // if no item matched then show notFound row, otherwise hide it
+            if (matchedItems.length == 0) notFound.show()
+            else notFound.hide()
+
+            if (matchedSub.length == 0) notFound.show()
+            else notFound.hide()
+
+            // Show what user input in form search
+            $("#results").html($("#docsearch-input").val());
+        });
+    });
 </script>
+
 </body>
 
 </html>
