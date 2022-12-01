@@ -202,6 +202,7 @@
 
 ::-webkit-scrollbar {
     width: 4px;
+    height: 10px;
 }
 
 ::-webkit-scrollbar:hover {
@@ -219,7 +220,7 @@
 
 ::-webkit-scrollbar-thumb {
     background: var(--secondary-300);
-    border-radius: var(--rounded-7);
+    border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -2001,7 +2002,7 @@ table.bullet:after {
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 pre[class*=language-] {
     border: none !important;
-    border-radius: var(--rounded-2) !important;
+    border-radius: var(--rounded-3) !important;
     background-color: var(--secondary-900) !important;
 }
 

@@ -3,8 +3,8 @@
 body {
     background-image: url('../img/background/bg-body.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
+    background-size: contain;
+    /* position: absolute; */
     background-position-y: 0.0em;
     background-position-x: 6em;
 }
@@ -223,10 +223,23 @@ header.navbar-doc {
     padding: 0.9rem 0;
     border-bottom: 1.5px solid;
     color: var(--secondary-200);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.466);
     backdrop-filter: blur(18.5px);
-    background-color: hsla(0, 0%, 100%, .6);
+    background-color: rgba(255, 255, 255, 0.534);
 }
+
+
+header.navbar.shrink {
+    padding: 0.9rem 0;
+    border-bottom: 1.5px solid;
+    color: var(--secondary-200);
+    background: rgba(255, 255, 255, 0.897);
+    backdrop-filter: blur(18.5px);
+    background-color: rgba(255, 255, 255, 0.952);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
 
 
 header.navbar .nav-item,
@@ -302,27 +315,6 @@ header.navbar li.nav-item .btn-link {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * Tree folder
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-h2 {
-    color: #aaa;
-    font-size: 30px;
-    line-height: 40px;
-    font-weight: 200;
-    margin: 40px;
-    text-align: center;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
-}
-
-/* .box {
-    background: #fff;
-    border-radius: 2px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
-    margin: 30px 5%;
-    padding: 5%;
-} */
-
-
-
 
 /* The list style
 -------------------------------------------------------------- */
