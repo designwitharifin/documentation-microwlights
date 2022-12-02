@@ -218,6 +218,18 @@ body {
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Card Doc
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.bg-card-doc {
+    background-color: var(--secondary-50) !important;
+    background-size: 40px 40px;
+    background-image:
+        linear-gradient(to right, var(--secondary-100) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--secondary-100) 1px, transparent 1px);
+    overflow: hidden !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * Navbar Doc
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 

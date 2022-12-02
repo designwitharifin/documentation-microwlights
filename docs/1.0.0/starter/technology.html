@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="/assets/css/main.css">
 
     <!-- Template CSS -->
-    <link rel="stylesheet" href="/assets/css/microlight.css">
+    <link rel="stylesheet" href="/assets/css/microwlights.css">
     <!-- Doc CSS -->
     <link rel="stylesheet" href="/assets/css/doc.css">
 
@@ -1563,79 +1563,86 @@
         </div>
     </div>
 
-</body>
-
-</html>
-
-<!-- General JS Scripts -->
-<!-- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> -->
-<script src="https://demo-microwlights.netlify.app/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-
-
-<!-- Template JS FIle -->
-<script src="/assets/js/main.js"></script>
-
-<!-- Js Libraries -->
-<!-- <script src="assets/js/apexchrats.js"></script> -->
-<script src="/assets/js/moment.min.js"></script>
-<!-- <script src="assets/js/chart.js"></script> -->
-<script src="/assets/js/jquery.min.js"></script>
-
-<!-- Modal ctrl+k -->
-<script>
-    $(document).keydown(function (evt) {
-        if (evt.keyCode == 75 && (evt.ctrlKey)) {
-            evt.preventDefault();
-            $('#searchModal').modal('show');
-        }
-    });
-</script>
-
-<!-- Search -->
-<script>
-    $(document).ready(function () {
-        // select notFound row
-        var notFound = $("#notFoundItem")
-        // make it hidden by default
-        notFound.hide();
-
-        $("#docsearch-input").on("keyup search", function () {
-            var value = $(this).val().toLowerCase()
-
-            // select all items
-            var allItems = $("#allList .results-item .card")
-            var subItem = $("#allList .results-item")
-
-            // get list of matched items, (do not toggle them)
-            var matchedItems = $("#allList .results-item .card").filter(function () {
-                return $(this).text().toLowerCase().indexOf(value) > -1
-            });
-
-            var matchedSub = $("#allList .results-item").filter(function () {
-                return $(this).text().toLowerCase().indexOf(value) > -1
-            });
+    <footer class="main-footer">
+        <div class="float-start">
+            Copyright © 2022 <div class="bullet"></div> Design with ❤️ By <a
+                href="https://designwitharifin.netlify.app/">designwitharifin</a>
+        </div>
+        <div class="float-end">
+            v1.0.0
+        </div>
+    </footer>
 
 
-            // hide all items first
-            allItems.toggle(false)
-            subItem.toggle(false)
+    <!-- General JS Scripts -->
+    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> -->
+    <script src="https://demo-microwlights.netlify.app/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
-            // then show matched items
-            matchedItems.toggle(true)
-            matchedSub.toggle(true)
 
-            // if no item matched then show notFound row, otherwise hide it
-            if (matchedItems.length == 0) notFound.show()
-            else notFound.hide()
+    <!-- Template JS FIle -->
+    <script src="/assets/js/main.js"></script>
 
-            if (matchedSub.length == 0) notFound.show()
-            else notFound.hide()
+    <!-- Js Libraries -->
+    <!-- <script src="assets/js/apexchrats.js"></script> -->
+    <script src="/assets/js/moment.min.js"></script>
+    <!-- <script src="assets/js/chart.js"></script> -->
+    <script src="/assets/js/jquery.min.js"></script>
 
-            // Show what user input in form search
-            $("#results").html($("#docsearch-input").val());
+    <!-- Modal ctrl+k -->
+    <script>
+        $(document).keydown(function (evt) {
+            if (evt.keyCode == 75 && (evt.ctrlKey)) {
+                evt.preventDefault();
+                $('#searchModal').modal('show');
+            }
         });
-    });
-</script>
+    </script>
+
+    <!-- Search -->
+    <script>
+        $(document).ready(function () {
+            // select notFound row
+            var notFound = $("#notFoundItem")
+            // make it hidden by default
+            notFound.hide();
+
+            $("#docsearch-input").on("keyup search", function () {
+                var value = $(this).val().toLowerCase()
+
+                // select all items
+                var allItems = $("#allList .results-item .card")
+                var subItem = $("#allList .results-item")
+
+                // get list of matched items, (do not toggle them)
+                var matchedItems = $("#allList .results-item .card").filter(function () {
+                    return $(this).text().toLowerCase().indexOf(value) > -1
+                });
+
+                var matchedSub = $("#allList .results-item").filter(function () {
+                    return $(this).text().toLowerCase().indexOf(value) > -1
+                });
+
+
+                // hide all items first
+                allItems.toggle(false)
+                subItem.toggle(false)
+
+                // then show matched items
+                matchedItems.toggle(true)
+                matchedSub.toggle(true)
+
+                // if no item matched then show notFound row, otherwise hide it
+                if (matchedItems.length == 0) notFound.show()
+                else notFound.hide()
+
+                if (matchedSub.length == 0) notFound.show()
+                else notFound.hide()
+
+                // Show what user input in form search
+                $("#results").html($("#docsearch-input").val());
+            });
+        });
+    </script>
 
 </body>
 
