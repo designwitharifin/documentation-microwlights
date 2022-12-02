@@ -1,4 +1,6 @@
 @import url('../css/microlight.css');
+/* iCONS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 
 body {
     background-image: url('../img/background/bg-body.png');
