@@ -1193,7 +1193,7 @@ html {
 }
 
 body {
-    position: relative;
+    /* position: relative; */
     margin: var(--header-fheight) 0 0 0;
     padding: 0 1rem;
     transition: .5s;
@@ -1500,7 +1500,7 @@ a {
 
 /*Add padding body movil*/
 .body-pd {
-    padding-left: calc(var(--nav-width) + 1rem);
+    /* padding-left: calc(var(--nav-width) + 1rem); */
 }
 
 /*Active links*/
@@ -2805,7 +2805,8 @@ section.error__page span {
 
     /*Add padding body desktop*/
     .body-pd {
-        padding-left: calc(var(--nav-width) + 188px);
+        /* padding-left: calc(var(--nav-width) + 188px); */
+        padding-left: 1.5em;
     }
 }
 
@@ -2826,6 +2827,36 @@ section.error__page span {
         padding: 3rem 0;
         text-align: center;
     }
+
+    .container-fluid {
+        padding: 0 !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .container-fluid {
+        padding: 0 1.8rem 0 1.8rem;
+    }
+
+    .body-pd {
+        padding-left: 4.5em;
+    }
+
+    /* Section content */
+    section.contents .main-content.px__sidenav-content {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    * Add padding body desktop
+    * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    .body-pd {
+        padding-left: calc(var(--nav-width) + 170px);
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -2839,7 +2870,34 @@ section.error__page span {
         width: 100px;
     }
 
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    * Section content
+    * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    section.contents .main-content.px__sidenav-content {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
     .single-timeline-area .single-timeline-content {
         padding: 20px;
     }
+
+}
+
+@media (max-width: 1200) {
+
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    * Add padding body desktop
+    * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    .body-pd {
+        padding-left: calc(var(--nav-width) + 170px);
+    }
+
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Documentation Content Doc
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.doc-content {
+    padding: 1em 0;
 }
