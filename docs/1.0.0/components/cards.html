@@ -944,11 +944,13 @@
                                 <div class="text-primary">
                                     <h6 class="small">Images</h6>
                                 </div>
-                                <p>Cards include a few options for working with images.</p>
+                                <p>Cards include a few options for working with images. Use <code>.single-blog</code>
+                                    class and add rounded for image use <code>.rounded-2</code> if you want looks
+                                    aligned with rounded card. then add padding <code>.p-3</code></p>
                                 <div class="bd-callout bd-callout-info">
                                     <h5>Note:</h5>
                                     <p>For image card rule very important to use class <code>.single-blog</code> cause
-                                        settup width and heigt and property image cover.</p>
+                                        settup width and height and property image cover.</p>
                                 </div>
                                 <div class="card border border-secondary-100 bg-secondary bg-card-doc">
                                     <div class="card-body">
@@ -1009,20 +1011,26 @@
                             <!-- COMPONENT ITEM -->
                             <div class="component-item">
                                 <div class="text-primary">
-                                    <h6 class="small">Images</h6>
+                                    <h6 class="small">Horizontal</h6>
                                 </div>
-                                <p>Cards include a few options for working with images.</p>
+                                <p>Using a combination of grid and utility classes, cards can be made horizontal in a
+                                    mobile-friendly and responsive way.
+                                    In the example below, we remove the grid gutters with <code>.g-0</code> and use
+                                    <code>.col-md-*</code> classes
+                                    to make the card horizontal at the <code>md</code> breakpoint. Further adjustments
+                                    may be needed depending on your card content.
+                                </p>
                                 <div class="bd-callout bd-callout-info">
                                     <h5>Note:</h5>
                                     <p>For horizontal image card rule very important to use class
                                         <code>.inline-blog</code> cause
-                                        settup width and heigt and property image cover.
+                                        settup width and height and property image cover.
                                     </p>
                                 </div>
                                 <div class="card border border-secondary-100 bg-secondary bg-card-doc">
                                     <div class="card-body">
                                         <!-- CODE IMG PREVIEW ORIGINAL -->
-                                        <div class="card mb-3 inline-blog">
+                                        <div class="card inline-blog">
                                             <div class="row g-0">
                                                 <div class="col-md-4 p-3">
                                                     <img src="https://images.unsplash.com/photo-1644224076179-31d622e21511?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
@@ -1051,21 +1059,26 @@
                                 <!-- Code block -->
                                 <pre class="language-html shadow">
                                     <code><!--
-                                    <div class="card p-3 single-blog">
-                                        <img src="https://images.unsplash.com/photo-1637416067365-2b5e7e8fe8fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
-                                            class="rounded-2" alt="thumbnail-blog">
-                                        <div class="card-body">
-                                            <div class="py-2">
-                                                <i class='bx bx-calendar-week align-middle'></i> <span
-                                                    class="sm-text-rg text-secondary-500">20 May
-                                                    2022</span>
+                                    <div class="card inline-blog">
+                                        <div class="row g-0">
+                                            <div class="col-md-4 p-3">
+                                                <img src="https://images.unsplash.com/photo-1644224076179-31d622e21511?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+                                                    class="rounded-2 w-100" alt="thumbnail-blog">
                                             </div>
-                                            <h5 class="fw-bold text-truncate">Hand art rainbow color trend
-                                                in this years</h5>
-                                            <p class="md-text-rg text-secondary-500">Lorem ipsum, dolor sit
-                                                amet consectetur adipisicing
-                                                elit. Dolore, quibusdam.</p>
-                                            <button class="btn btn-primary btn-md">Read More</button>
+                                            <div class="col-md-8">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold">Card titles</h5>
+                                                    <p class="card-text text-secondary-500">This is a wider card
+                                                        with supporting text below
+                                                        as a natural
+                                                        lead-in to additional content. This content is a little bit
+                                                        longer.</p>
+                                                    <p class="card-text">
+                                                        <small class="text-muted text-secondary-400">Last updated 3
+                                                            mins ago</small>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 --></code>
@@ -1074,43 +1087,38 @@
                         </div>
                         <!-- //🔥COMPONENT PREVIEW HORIZONTAL CARD IMG -->
 
-                        <!-- 🔥COMPONENT PREVIEW HORIZONTAL CARD IMG -->
-                        <div id="horizontal" style="padding-top:80px">
+                        <!-- 🔥COMPONENT PREVIEW OUTLINE CARD IMG -->
+                        <div id="outline" style="padding-top:80px">
                             <!-- COMPONENT ITEM -->
                             <div class="component-item">
                                 <div class="text-primary">
-                                    <h6 class="small">Images</h6>
+                                    <h6 class="small">Outline</h6>
                                 </div>
-                                <p>Cards include a few options for working with images.</p>
+                                <p>Cards include a few options for working with images. Use
+                                    <code>.single-blog-outline</code>
+                                    class and add rounded for image use <code>.rounded-3</code> if you want looks
+                                    aligned with rounded card.
+                                </p>
                                 <div class="bd-callout bd-callout-info">
                                     <h5>Note:</h5>
-                                    <p>For horizontal image card rule very important to use class
-                                        <code>.inline-blog</code> cause
-                                        settup width and heigt and property image cover.
-                                    </p>
+                                    <p>For image card rule very important to use class <code>.single-blog-outline</code>
+                                        cause settup width and height and property image cover.</p>
                                 </div>
                                 <div class="card border border-secondary-100 bg-secondary bg-card-doc">
                                     <div class="card-body">
                                         <!-- CODE IMG PREVIEW ORIGINAL -->
-                                        <div class="card mb-3 inline-blog">
-                                            <div class="row g-0">
-                                                <div class="col-md-4 p-3">
-                                                    <img src="https://images.unsplash.com/photo-1644224076179-31d622e21511?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
-                                                        class="rounded-2 w-100" alt="thumbnail-blog">
+                                        <div class="row">
+                                            <div class="col-md-6 mx-auto">
+                                                <div class="card mb-4 single-blog-outline">
+                                                    <img src="https://images.unsplash.com/photo-1642427749670-f20e2e76ed8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                                                        class="rounded-3" alt="thumbnail-blog">
                                                 </div>
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title fw-bold">Card titles</h5>
-                                                        <p class="card-text text-secondary-500">This is a wider card
-                                                            with supporting text below
-                                                            as a natural
-                                                            lead-in to additional content. This content is a little bit
-                                                            longer.</p>
-                                                        <p class="card-text">
-                                                            <small class="text-muted text-secondary-400">Last updated 3
-                                                                mins ago</small>
-                                                        </p>
-                                                    </div>
+                                                <div class="card-body">
+                                                    <h4 class="fw-bold text-truncate">Line
+                                                        color 3D trend this years on 2023</h4>
+                                                    <p class="text-truncate text-secondary-400 lg-text-rg pt-2">Lorem
+                                                        ipsum
+                                                        dolor sit amet consectetur adipisicing elit. Rerum, fugit.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1120,29 +1128,28 @@
 
                                 <!-- Code block -->
                                 <pre class="language-html shadow">
-                                                            <code><!--
-                                                            <div class="card p-3 single-blog">
-                                                                <img src="https://images.unsplash.com/photo-1637416067365-2b5e7e8fe8fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
-                                                                    class="rounded-2" alt="thumbnail-blog">
-                                                                <div class="card-body">
-                                                                    <div class="py-2">
-                                                                        <i class='bx bx-calendar-week align-middle'></i> <span
-                                                                            class="sm-text-rg text-secondary-500">20 May
-                                                                            2022</span>
-                                                                    </div>
-                                                                    <h5 class="fw-bold text-truncate">Hand art rainbow color trend
-                                                                        in this years</h5>
-                                                                    <p class="md-text-rg text-secondary-500">Lorem ipsum, dolor sit
-                                                                        amet consectetur adipisicing
-                                                                        elit. Dolore, quibusdam.</p>
-                                                                    <button class="btn btn-primary btn-md">Read More</button>
-                                                                </div>
-                                                            </div>
-                                                        --></code>
-                                                        </pre>
+                                    <code><!--
+                                    <div class="row">
+                                        <div class="col-md-6 mx-auto">
+                                            <div class="card mb-4 single-blog-outline">
+                                                <img src="https://images.unsplash.com/photo-1642427749670-f20e2e76ed8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                                                    class="rounded-3" alt="thumbnail-blog">
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="fw-bold text-truncate">Line
+                                                    color 3D trend this years on 2023</h4>
+                                                <p class="text-truncate text-secondary-400 lg-text-rg pt-2">Lorem
+                                                    ipsum
+                                                    dolor sit amet consectetur adipisicing elit. Rerum, fugit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                --></code>
+                                </pre>
                             </div>
                         </div>
-                        <!-- //🔥COMPONENT PREVIEW HORIZONTAL CARD IMG -->
+                        <!-- //🔥COMPONENT PREVIEW OUTLINE CARD IMG -->
+
 
                     </div>
                 </div>
