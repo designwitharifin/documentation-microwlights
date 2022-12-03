@@ -2562,9 +2562,10 @@ section.error__page span {
     border-top: 1px solid var(--secondary-200);
     display: inline-block;
     width: 100%;
-    font-size: var(--text-medium-font-size);
+    font-size: var(--small-text-medium-font-size);
     font-weight: var(--text-medium-font-line-height-text-regular);
 }
+
 
 
 .bullet,
