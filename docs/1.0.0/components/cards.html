@@ -867,7 +867,7 @@
                                     <h6 class="small">Footer</h6>
                                 </div>
                                 <p>Card background footer white smoke use <code>.bg-whitesmoke</code> or you can change
-                                    with another color by the way. use the class <code>.text-bg-warning-400</code> or
+                                    with another color by the way. use the class <code>.text-bg-primary-700</code> or
                                     explore
                                     color <a href="/docs/1.0.0/utilities/color.html">here</a> </p>
 
@@ -896,7 +896,7 @@
                                                     <div class="card-body">
                                                         This is some text within a card body.
                                                     </div>
-                                                    <div class="card-footer text-bg-warning-400">
+                                                    <div class="card-footer text-bg-primary-700">
                                                         Footer Card
                                                     </div>
                                                 </div>
@@ -1246,7 +1246,7 @@
                                         <!-- CODE OUTLINE PREVIEW ORIGINAL -->
                                         <div class="row">
                                             <div class="col-md-6 mx-auto">
-                                                <div class="card">
+                                                <div class="card mb-2">
                                                     <div class="card-body">
                                                         <div class="d-flex pt-2">
                                                             <div class="float-start">
@@ -1264,7 +1264,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6 mx-auto">
-                                                <div class="card">
+                                                <div class="card mb-2">
                                                     <div class="card-body">
                                                         <div class="d-flex pt-2">
                                                             <div class="float-start">
@@ -1318,95 +1318,117 @@
                         </div>
                         <!-- //🔥COMPONENT PREVIEW CARD ICON -->
 
-                        <!-- 🔥COMPONENT PREVIEW CARD ICON -->
-                        <div id="icon" style="padding-top:80px">
+                        <!-- 🔥COMPONENT PREVIEW CARD ROUNDED PROGRESS -->
+                        <div id="rounded-progress" style="padding-top:80px">
                             <!-- COMPONENT ITEM -->
                             <div class="component-item">
                                 <div class="text-primary">
-                                    <h6 class="small">Icon</h6>
+                                    <h6 class="small">Rounded progress</h6>
                                 </div>
-                                <p>Cards icon for definition a featurest or card information. Use
-                                    <code>.icon-card text-primary-500</code> or something else color. then you can put a
-                                    icon class. explore more icons <a href="https://icons.getbootstrap.com/"
-                                        target="_blank">here</a>
+                                <p>Rounded progress with value percentage. Rounded progressbar need javascript. and
+                                    you can changes others color to use <code>.border-primary</code>, or explore more
+                                    color <a href="/docs/1.0.0/utilities/color.html">here</a>
                                 </p>
                                 <div class="card border border-secondary-100 bg-secondary bg-card-doc">
                                     <div class="card-body">
-                                        <!-- CODE OUTLINE PREVIEW ORIGINAL -->
+                                        <!-- CODE ROUNDED PREVIEW ORIGINAL -->
                                         <div class="row">
                                             <div class="col-md-6 mx-auto">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <div class="d-flex pt-2">
-                                                            <div class="float-start">
-                                                                <div class="icon-card text-primary-500">
-                                                                    <i
-                                                                        class='bx bxs-wallet rounded-bag text-bg-primary-50 rounded-pill p-3'></i>
-                                                                </div>
-                                                            </div>
-                                                            <div class="float-end">
-                                                                <span class="xxl-text-rg ps-4">$18090</span>
-                                                                <p class="lg-text-rg text-secondary-500 ps-4">Income</p>
-                                                            </div>
+                                                <div class="card rounded-5 p-5">
+                                                    <h2 class="h6 fw-bold text-center mb-4">Overall progress</h2>
+
+                                                    <!-- Progress bar 1 -->
+                                                    <div class="progress-rounded mx-auto" data-value='80'>
+                                                        <span class="progress-left">
+                                                            <span class="progress-bar-rounded border-primary"></span>
+                                                        </span>
+                                                        <span class="progress-right">
+                                                            <span class="progress-bar-rounded border-primary"></span>
+                                                        </span>
+                                                        <div
+                                                            class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                                            <div class="h2 fw-bold">80<sup class="small">%</sup></div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 mx-auto">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <div class="d-flex pt-2">
-                                                            <div class="float-start">
-                                                                <div class="icon-card text-warning-500">
-                                                                    <i
-                                                                        class='bx bxs-user-circle rounded-bag text-bg-warning-100 rounded-pill p-3'></i>
-                                                                </div>
-                                                            </div>
-                                                            <div class="float-end">
-                                                                <span class="xxl-text-rg ps-4">847</span>
-                                                                <p class="lg-text-rg text-secondary-500 ps-4">User</p>
-                                                            </div>
+                                                    <!-- END -->
+
+                                                    <!-- Demo info -->
+                                                    <div class="row text-center mt-4">
+                                                        <div class="col-6 border-right">
+                                                            <div class="h4 fw-bold mb-0">28%</div><span
+                                                                class="small text-secondary-500">Last week</span>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="h4 fw-bold mb-0">60%</div><span
+                                                                class="small text-secondary-500">Last month</span>
                                                         </div>
                                                     </div>
+                                                    <!-- END -->
                                                 </div>
                                             </div>
-                                            <!-- CODE OUTLINE PREVIEW ORIGINAL -->
                                         </div>
                                     </div>
                                 </div>
 
                                 <!-- Code block -->
                                 <pre class="language-html shadow">
-                                                        <code><!--
-                                                        <div class="card">
-                                                            <div class="card-body p-4">
-                                                                <h4 class="fw-bold">26%</h4>
-                                                                <span class="md-text-rg text-secondary-500 ">Total Product</span>
-                                                                <div class="progress mt-2" style="height: 9px;">
-                                                                    <div class="progress-bar rounded-pill" role="progressbar"
-                                                                        style="width: 26%;" aria-valuenow="26" aria-valuemin="0"
-                                                                        aria-valuemax="100">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card">
-                                                            <div class="card-body p-4">
-                                                                <h4 class="fw-bold">63%</h4>
-                                                                <span class="md-text-rg text-secondary-500 ">Selling Products</span>
-                                                                <div class="progress mt-2" style="height: 9px;">
-                                                                    <div class="progress-bar rounded-pill text-bg-success-400" role="progressbar" style="width: 63%;"
-                                                                        aria-valuenow="63" aria-valuemin="0" aria-valuemax="100">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    --></code>
-                                                    </pre>
+                                    <code><!--
+                                    <div class="card rounded-5 p-5">
+                                        <div class="progress-rounded mx-auto" data-value='80'>
+                                            <span class="progress-left">
+                                                <span class="progress-bar-rounded border-primary"></span>
+                                            </span>
+                                            <span class="progress-right">
+                                                <span class="progress-bar-rounded border-primary"></span>
+                                            </span>
+                                            <div
+                                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                                <div class="h2 fw-bold">80<sup class="small">%</sup></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row text-center mt-4">
+                                            <div class="col-6 border-right">
+                                                <div class="h4 fw-bold mb-0">28%</div><span
+                                                    class="small text-secondary-500">Last week</span>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="h4 fw-bold mb-0">60%</div><span
+                                                    class="small text-secondary-500">Last month</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                --></code>
+                                </pre>
+                                <!-- Code block -->
+                                <pre class="language-javascript shadow">
+                                    <code><!--
+                                    $(function () {
+                                    $(".progress-rounded").each(function () {
+
+                                        var value = $(this).attr('data-value');
+                                        var left = $(this).find('.progress-left .progress-bar-rounded');
+                                        var right = $(this).find('.progress-right .progress-bar-rounded');
+
+                                        if (value > 0) {
+                                            if (value <= 50) {
+                                                right.css('transform', 'rotate(' + percentageToDegrees(value) + 'deg)')
+                                            } else {
+                                                right.css('transform', 'rotate(180deg)')
+                                                left.css('transform', 'rotate(' + percentageToDegrees(value - 50) + 'deg)')
+                                            }
+                                        }
+                                    })
+                                    function percentageToDegrees(percentage) {
+
+                                        return percentage / 100 * 360
+                                    }
+                                });
+                                --></code>
+                                </pre>
                             </div>
                         </div>
-                        <!-- //🔥COMPONENT PREVIEW CARD ICON -->
-
+                        <!-- //🔥COMPONENT PREVIEW CARD ROUNDED PROGRESS -->
 
                     </div>
                 </div>
@@ -1417,9 +1439,9 @@
                 </div>
                 <div class="next float-end pb-5">
                     <div class="container">
-                        <a href="/docs/1.0.0/components/cards.html"
+                        <a href="/docs/1.0.0/components/carousel.html"
                             class="btn btn-white btn-sm shadow-md sm-text-rg">Next:
-                            Card <i class='align-middle bx bxs-chevron-right'></i></a>
+                            Carousel <i class='align-middle bx bxs-chevron-right'></i></a>
                     </div>
                 </div>
             </div>
@@ -1428,8 +1450,13 @@
                     <li><a href="#basic" class="scroll-item">Basic</a></li>
                     <li><a href="#links" class="scroll-item">Titles, text, and links</a></li>
                     <li><a href="#buttons" class="scroll-item">Buttons</a></li>
-                    <li><a href="#sizes" class="scroll-item">Sizes</a></li>
-                    <li><a href="#group" class="scroll-item">Group</a></li>
+                    <li><a href="#footer" class="scroll-item">Footer</a></li>
+                    <li><a href="#images" class="scroll-item">Images</a></li>
+                    <li><a href="#horizontal" class="scroll-item">Horizontal</a></li>
+                    <li><a href="#outline" class="scroll-item">Outline</a></li>
+                    <li><a href="#progressbar" class="scroll-item">Progressbar</a></li>
+                    <li><a href="#icon" class="scroll-item">Icon</a></li>
+                    <li><a href="#rounded-progress" class="scroll-item">Rounded progress</a></li>
                 </ul>
             </div>
         </div>
@@ -2351,6 +2378,37 @@
                 $('header').removeClass('shrink');
             }
         });
+    </script>
+
+    <script>
+        // script for progressbar rounded. add this script if you want use this progress
+        $(function () {
+
+            $(".progress-rounded").each(function () {
+
+                var value = $(this).attr('data-value');
+                var left = $(this).find('.progress-left .progress-bar-rounded');
+                var right = $(this).find('.progress-right .progress-bar-rounded');
+
+                if (value > 0) {
+                    if (value <= 50) {
+                        right.css('transform', 'rotate(' + percentageToDegrees(value) + 'deg)')
+                    } else {
+                        right.css('transform', 'rotate(180deg)')
+                        left.css('transform', 'rotate(' + percentageToDegrees(value - 50) + 'deg)')
+                    }
+                }
+
+            })
+
+            function percentageToDegrees(percentage) {
+
+                return percentage / 100 * 360
+
+            }
+
+        });
+
     </script>
 </body>
 
