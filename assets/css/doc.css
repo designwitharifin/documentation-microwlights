@@ -433,3 +433,14 @@ section.contents ul.list:first-of-type li a {
 a.scroll-item {
     padding-bottom: 0.5em;
 }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Documentation Note Doc
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    background-color: var(--warning-100, var(--primary-500));
+    border-left: 0.25rem solid var(--warning-400, var(--secondary-300));
+}
