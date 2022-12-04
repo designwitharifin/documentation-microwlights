@@ -423,6 +423,15 @@ section.contents ul.list:first-of-type {
     padding-left: 20px;
 }
 
+section.contents ul.list {
+    position: sticky;
+    top: 5rem;
+    right: 0;
+    z-index: 2;
+    height: calc(100vh - 15rem);
+    overflow-y: auto;
+}
+
 section.contents ul.list:first-of-type li a {
     display: block;
     color: var(--secondary-900);
