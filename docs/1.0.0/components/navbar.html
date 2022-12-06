@@ -703,8 +703,8 @@
                 <div class="main-content bd-layout px__sidenav-content">
                     <!-- Start content here -->
                     <div class="doc-content">
-                        <!-- 🔥COMPONENT PREVIEW BASE NAV TEMPLATE -->
-                        <div id="base-nav" style="padding-top:50px">
+                        <!-- 🔥COMPONENT PREVIEW NAVBAR BRAND -->
+                        <div id="brand" style="padding-top:50px">
                             <!-- Header Components -->
                             <div class="header-doc-content text-primary">
                                 <h6>Navbar</h6>
@@ -725,7 +725,7 @@
 
                                 <div class="card border border-secondary-100 bg-card-doc">
                                     <div class="card-body">
-                                        <!-- CODE BASE NAVBAR BRAND TEMPLATE PREVIEW ORIGINAL -->
+                                        <!-- CODE BASE NAVBAR BRAND PREVIEW ORIGINAL -->
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <nav class="navbar bg-primary rounded-2">
@@ -738,7 +738,7 @@
                                                 </nav>
                                             </div>
                                         </div>
-                                        <!-- CODE BASE NAVBAR BRAND TEMPLATE PREVIEW ORIGINAL -->
+                                        <!-- CODE BASE NAVBAR BRAND PREVIEW ORIGINAL -->
                                     </div>
                                 </div>
 
@@ -756,329 +756,335 @@
                             </pre>
                             </div>
                         </div>
-                        <!-- //🔥COMPONENT PREVIEW BASE NAV TEMPLATE -->
+                        <!-- //🔥COMPONENT PREVIEW NAVBAR BRAND -->
 
-                        <!-- 🔥COMPONENT PREVIEW HORIZONTAL ALIGNMENT -->
-                        <div id="horizontal-alignment" style="padding-top:80px">
+                        <!-- 🔥COMPONENT PREVIEW ITEMS -->
+                        <div id="items" style="padding-top:80px">
                             <!-- COMPONENT ITEM -->
                             <div class="component-item">
                                 <div class="text-primary">
-                                    <h6 class="small">Horizontal alignment</h6>
+                                    <h6 class="small">Items</h6>
                                 </div>
-                                <p>Change the horizontal alignment of your nav with <a
-                                        href="https://getbootstrap.com/docs/5.2/layout/grid/#horizontal-alignment">flexbox
-                                        utilities</a>. By default, navs are left-aligned, but you can easily change them
-                                    to center or right aligned.</p>
-                                <p>Centered with <code>.justify-content-center</code>:</p>
+                                <p>Navbar with items</p>
                                 <div class="card border border-secondary-100 bg-card-doc">
                                     <div class="card-body">
-                                        <!-- CODE CENTER DEFAULT PREVIEW ORIGINAL -->
+                                        <!-- CODE ITEMS PREVIEW ORIGINAL -->
                                         <div class="row">
-                                            <div class="col-md-7 mx-auto">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <nav class="nav justify-content-center">
-                                                            <a class="nav-link active" aria-current="page"
-                                                                href="#">Active</a>
-                                                            <a class="nav-link" href="#">Link</a>
-                                                            <a class="nav-link" href="#">Link</a>
-                                                            <a class="nav-link disabled">Disabled</a>
-                                                        </nav>
+                                            <div class="col-md-12">
+                                                <nav class="navbar navbar-expand-lg bg-primary navbar-dark rounded-2">
+                                                    <div class="container-fluid">
+                                                        <a class="navbar-brand" href="#"> <img
+                                                                src="/assets/img/brand/logo-light.svg" alt=""
+                                                                class="d-inline-block align-text-top"></a>
+                                                        <button class="navbar-toggler" type="button"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#navbarNavAltMarkup"
+                                                            aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                                                            aria-label="Toggle navigation">
+                                                            <span class="navbar-toggler-icon"></span>
+                                                        </button>
+                                                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                                            <div class="navbar-nav">
+                                                                <a class="nav-link active" aria-current="page"
+                                                                    href="#">Home</a>
+                                                                <a class="nav-link" href="#">Features</a>
+                                                                <a class="nav-link" href="#">Pricing</a>
+                                                                <a class="nav-link disabled">Disabled</a>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                </nav>
                                             </div>
                                         </div>
-                                        <!-- CODE CENTER DEFAULT PREVIEW ORIGINAL -->
+                                        <!-- CODE ITEMS PREVIEW ORIGINAL -->
                                     </div>
                                 </div>
 
                                 <!-- Code block -->
                                 <pre class="language-html shadow">
                                     <code><!--
-                                     <nav class="nav justify-content-center">
-                                        <a class="nav-link active" aria-current="page" href="#">Active</a>
-                                        <a class="nav-link" href="#">Link</a>
-                                        <a class="nav-link" href="#">Link</a>
-                                        <a class="nav-link disabled">Disabled</a>
+                                     <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+                                        <div class="container-fluid">
+                                            <a class="navbar-brand" href="#"> <img src="#" alt="" class="d-inline-block align-text-top"></a>
+                                            <button class="navbar-toggler" type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#navbarNavAltMarkup"
+                                                aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                                                aria-label="Toggle navigation">
+                                                <span class="navbar-toggler-icon"></span>
+                                            </button>
+                                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                                <div class="navbar-nav">
+                                                    <a class="nav-link active" aria-current="page"
+                                                        href="#">Home</a>
+                                                    <a class="nav-link" href="#">Features</a>
+                                                    <a class="nav-link" href="#">Pricing</a>
+                                                    <a class="nav-link disabled">Disabled</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </nav>
                                 --></code>
                                  </pre>
                             </div>
-                            <div class="component-item pt-3">
-                                <p>Right-aligned with <code>.justify-content-end</code>:</p>
+                        </div>
+                        <!-- //🔥COMPONENT PREVIEW ITEMS -->
+
+                        <!-- 🔥COMPONENT PREVIEW FORM -->
+                        <div id="form" style="padding-top:80px">
+                            <!-- COMPONENT ITEM -->
+                            <div class="component-item">
+                                <div class="text-primary">
+                                    <h6 class="small">Form</h6>
+                                </div>
+                                <p>Navbar with form</p>
                                 <div class="card border border-secondary-100 bg-card-doc">
                                     <div class="card-body">
-                                        <!-- CODE END DEFAULT PREVIEW ORIGINAL -->
+                                        <!-- CODE ITEMS PREVIEW ORIGINAL -->
                                         <div class="row">
-                                            <div class="col-md-7 mx-auto">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <nav class="nav justify-content-end">
-                                                            <a class="nav-link active" aria-current="page"
-                                                                href="#">Active</a>
-                                                            <a class="nav-link" href="#">Link</a>
-                                                            <a class="nav-link" href="#">Link</a>
-                                                            <a class="nav-link disabled">Disabled</a>
-                                                        </nav>
+                                            <div class="col-md-12">
+                                                <nav class="navbar bg-primary navbar-dark rounded-2">
+                                                    <div class="container-fluid">
+                                                        <a class="navbar-brand"> <img
+                                                                src="/assets/img/brand/logo-light.svg" alt=""
+                                                                class="d-inline-block align-text-top"></a>
+                                                        <form class="d-flex" role="search">
+                                                            <input class="form-control me-2" type="search"
+                                                                placeholder="Search" aria-label="Search">
+                                                            <button class="btn btn-light" type="submit">Search</button>
+                                                        </form>
                                                     </div>
-                                                </div>
+                                                </nav>
                                             </div>
                                         </div>
-                                        <!-- CODE END DEFAULT PREVIEW ORIGINAL -->
+                                        <!-- CODE ITEMS PREVIEW ORIGINAL -->
                                     </div>
                                 </div>
 
                                 <!-- Code block -->
                                 <pre class="language-html shadow">
                                     <code><!--
-                                        <nav class="nav justify-content-end">
-                                            <a class="nav-link active" aria-current="page"
-                                                href="#">Active</a>
-                                            <a class="nav-link" href="#">Link</a>
-                                            <a class="nav-link" href="#">Link</a>
-                                            <a class="nav-link disabled">Disabled</a>
-                                        </nav>
+                                     <nav class="navbar bg-primary navbar-dark">
+                                        <div class="container-fluid">
+                                            <a class="navbar-brand"> <img src="#" alt=""
+                                                    class="d-inline-block align-text-top"></a>
+                                            <form class="d-flex" role="search">
+                                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                                <button class="btn btn-light" type="submit">Search</button>
+                                            </form>
+                                        </div>
                                     </nav>
+                                --></code>
+                                 </pre>
+                            </div>
+                        </div>
+                        <!-- //🔥COMPONENT PREVIEW FORM -->
+
+                        <!-- 🔥COMPONENT PREVIEW TEXT -->
+                        <div id="text" style="padding-top:80px">
+                            <!-- COMPONENT ITEM -->
+                            <div class="component-item">
+                                <div class="text-primary">
+                                    <h6 class="small">Text</h6>
+                                </div>
+                                <p>Navbars may contain bits of text with the help of <code>.navbar-text</code>. This
+                                    class adjusts vertical alignment
+                                    and horizontal spacing for strings of text.</p>
+                                <div class="card border border-secondary-100 bg-card-doc">
+                                    <div class="card-body">
+                                        <!-- CODE TEXT PREVIEW ORIGINAL -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <nav class="navbar navbar-expand-lg bg-primary navbar-dark rounded-2">
+                                                    <div class="container-fluid">
+                                                        <a class="navbar-brand" href="#"> <img
+                                                                src="/assets/img/brand/logo-light.svg" alt=""
+                                                                class="d-inline-block align-text-top"></a>
+                                                        <button class="navbar-toggler" type="button"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#navbarNavAltMarkup"
+                                                            aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                                                            aria-label="Toggle navigation">
+                                                            <span class="navbar-toggler-icon"></span>
+                                                        </button>
+                                                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                                            <div class="navbar-nav me-auto">
+                                                                <a class="nav-link active" aria-current="page"
+                                                                    href="#">Home</a>
+                                                                <a class="nav-link" href="#">Features</a>
+                                                                <a class="nav-link" href="#">Pricing</a>
+                                                            </div>
+                                                            <span class="navbar-text">
+                                                                Navbar text with an inline element
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                        <!-- CODE TEXT PREVIEW ORIGINAL -->
+                                    </div>
+                                </div>
+
+                                <!-- Code block -->
+                                <pre class="language-html shadow">
+                                    <code><!--
+                                         <nav class="navbar navbar-expand-lg bg-primary navbar-dark rounded-2">
+                                            <div class="container-fluid">
+                                                <a class="navbar-brand" href="#"> <img src="#" alt="" class="d-inline-block align-text-top"></a>
+                                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                                    aria-expanded="false" aria-label="Toggle navigation">
+                                                    <span class="navbar-toggler-icon"></span>
+                                                </button>
+                                                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                                    <div class="navbar-nav me-auto">
+                                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                                        <a class="nav-link" href="#">Features</a>
+                                                        <a class="nav-link" href="#">Pricing</a>
+                                                    </div>
+                                                    <span class="navbar-text">
+                                                        Navbar text with an inline element
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </nav>
+                                --></code>
+                                 </pre>
+                            </div>
+                        </div>
+                        <!-- //🔥COMPONENT PREVIEW TEXT -->
+
+                        <!-- 🔥COMPONENT PREVIEW COLOE SCHEME -->
+                        <div id="color-schemes" style="padding-top:80px">
+                            <!-- COMPONENT ITEM -->
+                            <div class="component-item">
+                                <div class="text-primary">
+                                    <h6 class="small">Color schemes</h6>
+                                </div>
+                                <p>You can changes background color for navbar or custom your style</p>
+                                <div class="card border border-secondary-100 bg-card-doc">
+                                    <div class="card-body">
+                                        <!-- CODE COLOE SCHEME PREVIEW ORIGINAL -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <nav class="navbar navbar-expand-lg bg-dark navbar-dark rounded-2 mb-3">
+                                                    <div class="container-fluid">
+                                                        <a class="navbar-brand" href="#"> <img
+                                                                src="/assets/img/brand/logo-light.svg" alt=""
+                                                                class="d-inline-block align-text-top"></a>
+                                                        <button class="navbar-toggler" type="button"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#navbarNavAltMarkup"
+                                                            aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                                                            aria-label="Toggle navigation">
+                                                            <span class="navbar-toggler-icon"></span>
+                                                        </button>
+                                                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                                            <div class="navbar-nav">
+                                                                <a class="nav-link active" aria-current="page"
+                                                                    href="#">Home</a>
+                                                                <a class="nav-link" href="#">Features</a>
+                                                                <a class="nav-link" href="#">Pricing</a>
+                                                                <a class="nav-link disabled">Disabled</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </nav>
+                                                <nav
+                                                    class="navbar navbar-expand-lg bg-primary navbar-dark rounded-2 mb-3">
+                                                    <div class="container-fluid">
+                                                        <a class="navbar-brand" href="#"> <img
+                                                                src="/assets/img/brand/logo-light.svg" alt=""
+                                                                class="d-inline-block align-text-top"></a>
+                                                        <button class="navbar-toggler" type="button"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#navbarNavAltMarkup"
+                                                            aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                                                            aria-label="Toggle navigation">
+                                                            <span class="navbar-toggler-icon"></span>
+                                                        </button>
+                                                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                                            <div class="navbar-nav">
+                                                                <a class="nav-link active" aria-current="page"
+                                                                    href="#">Home</a>
+                                                                <a class="nav-link" href="#">Features</a>
+                                                                <a class="nav-link" href="#">Pricing</a>
+                                                                <a class="nav-link disabled">Disabled</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </nav>
+                                                <nav
+                                                    class="navbar navbar-expand-lg bg-white navbar-light rounded-2 mb-3 shadow-md">
+                                                    <div class="container-fluid">
+                                                        <a class="navbar-brand" href="#"> <img
+                                                                src="/assets/img/brand/brand.svg" alt=""
+                                                                class="d-inline-block align-text-top"></a>
+                                                        <button class="navbar-toggler" type="button"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#navbarNavAltMarkup"
+                                                            aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                                                            aria-label="Toggle navigation">
+                                                            <span class="navbar-toggler-icon"></span>
+                                                        </button>
+                                                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                                            <div class="navbar-nav">
+                                                                <a class="nav-link active" aria-current="page"
+                                                                    href="#">Home</a>
+                                                                <a class="nav-link" href="#">Features</a>
+                                                                <a class="nav-link" href="#">Pricing</a>
+                                                                <a class="nav-link disabled">Disabled</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </nav>
+                                                <nav class="navbar navbar-expand-lg navbar-light rounded-2 mb-3"
+                                                    style="background-color: #e3f2fd;">
+                                                    <div class="container-fluid">
+                                                        <a class="navbar-brand" href="#"> <img
+                                                                src="/assets/img/brand/brand.svg" alt=""
+                                                                class="d-inline-block align-text-top"></a>
+                                                        <button class="navbar-toggler" type="button"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#navbarNavAltMarkup"
+                                                            aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                                                            aria-label="Toggle navigation">
+                                                            <span class="navbar-toggler-icon"></span>
+                                                        </button>
+                                                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                                            <div class="navbar-nav">
+                                                                <a class="nav-link active" aria-current="page"
+                                                                    href="#">Home</a>
+                                                                <a class="nav-link" href="#">Features</a>
+                                                                <a class="nav-link" href="#">Pricing</a>
+                                                                <a class="nav-link disabled">Disabled</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                        <!-- CODE ITEMS PREVIEW ORIGINAL -->
+                                    </div>
+                                </div>
+
+                                <!-- Code block -->
+                                <pre class="language-html shadow">
+                                    <code><!--
+                                        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">  
+                                        </nav>
+                                        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">  
+                                        </nav>
+                                        <nav class="navbar navbar-expand-lg bg-white navbar-light">  
+                                        </nav>
+                                        <nav class="navbar" style="background-color: #e3f2fd;">
+                                        </nav>
                                 --></code>
                                 </pre>
                             </div>
                         </div>
-                        <!-- //🔥COMPONENT PREVIEW HORIZONTAL ALIGNMENT -->
-
-                        <!-- 🔥COMPONENT PREVIEW VERTICAL -->
-                        <div id="vertical" style="padding-top:80px">
-                            <!-- COMPONENT ITEM -->
-                            <div class="component-item">
-                                <div class="text-primary">
-                                    <h6 class="small">Vertical</h6>
-                                </div>
-                                <p>Stack your navigation by changing the flex item direction with the
-                                    <code>.flex-column</code> utility. Need to stack
-                                    them on some viewports but not others? Use the responsive versions (e.g.,
-                                    <code>.flex-sm-column</code>).
-                                </p>
-
-                                <div class="card border border-secondary-100 bg-card-doc">
-                                    <div class="card-body">
-                                        <!-- CODE VERTICAL PREVIEW ORIGINAL -->
-                                        <div class="row">
-                                            <div class="col-md-7 mx-auto">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <nav class="nav flex-column">
-                                                            <a class="nav-link active" aria-current="page"
-                                                                href="#">Active</a>
-                                                            <a class="nav-link" href="#">Link</a>
-                                                            <a class="nav-link" href="#">Link</a>
-                                                            <a class="nav-link disabled">Disabled</a>
-                                                        </nav>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- CODE VERTICAL PREVIEW ORIGINAL -->
-                                    </div>
-                                </div>
-
-                                <!-- Code block -->
-                                <pre class="language-html shadow">
-                                        <code><!--
-                                        <nav class="nav flex-column">
-                                            <a class="nav-link active" aria-current="page" href="#">Active</a>
-                                            <a class="nav-link" href="#">Link</a>
-                                            <a class="nav-link" href="#">Link</a>
-                                            <a class="nav-link disabled">Disabled</a>
-                                        </nav>
-                                    --></code>
-                                </pre>
-                            </div>
-                        </div>
-                        <!-- //🔥COMPONENT PREVIEW VERTICAL -->
-
-                        <!-- 🔥COMPONENT PREVIEW TABS -->
-                        <div id="tabs" style="padding-top:80px">
-                            <!-- COMPONENT ITEM -->
-                            <div class="component-item">
-                                <div class="text-primary">
-                                    <h6 class="small">Tabs</h6>
-                                </div>
-                                <p>Takes the basic nav from above and adds the <code>.nav-tabs</code> class to generate
-                                    a tabbed interface.</p>
-
-                                <div class="card border border-secondary-100 bg-card-doc">
-                                    <div class="card-body">
-                                        <!-- CODE TABS PREVIEW ORIGINAL -->
-                                        <div class="row">
-                                            <div class="col-md-7 mx-auto">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <ul class="nav nav-tabs">
-                                                            <li class="nav-item">
-                                                                <a class="nav-link active" aria-current="page"
-                                                                    href="#">Active</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Link</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Link</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link disabled">Disabled</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- CODE TABS PREVIEW ORIGINAL -->
-                                    </div>
-                                </div>
-
-                                <!-- Code block -->
-                                <pre class="language-html shadow">
-                                        <code><!--
-                                        <ul class="nav nav-tabs">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" aria-current="page" href="#">Active</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Link</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Link</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link disabled">Disabled</a>
-                                            </li>
-                                        </ul>
-                                    --></code>
-                                </pre>
-                            </div>
-                        </div>
-                        <!-- //🔥COMPONENT PREVIEW TABS -->
-
-                        <!-- 🔥COMPONENT PREVIEW PILLS -->
-                        <div id="pills" style="padding-top:80px">
-                            <!-- COMPONENT ITEM -->
-                            <div class="component-item">
-                                <div class="text-primary">
-                                    <h6 class="small">Pills</h6>
-                                </div>
-                                <p>Take that same HTML, but use <code>.nav-pills</code> instead:</p>
-
-                                <div class="card border border-secondary-100 bg-card-doc">
-                                    <div class="card-body">
-                                        <!-- CODE PILLS PREVIEW ORIGINAL -->
-                                        <div class="row">
-                                            <div class="col-md-7 mx-auto">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <ul class="nav nav-pills">
-                                                            <li class="nav-item">
-                                                                <a class="nav-link active shadow" aria-current="page"
-                                                                    href="#">Active</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Link</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#">Link</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link disabled">Disabled</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- CODE PILLS PREVIEW ORIGINAL -->
-                                    </div>
-                                </div>
-
-                                <!-- Code block -->
-                                <pre class="language-html shadow">
-                                        <code><!--
-                                        <ul class="nav nav-pills">
-                                            <li class="nav-item">
-                                                <a class="nav-link active shadow" aria-current="page" href="#">Active</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Link</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Link</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link disabled">Disabled</a>
-                                            </li>
-                                        </ul>
-                                    --></code>
-                                </pre>
-                            </div>
-                        </div>
-                        <!-- //🔥COMPONENT PREVIEW PILLS -->
-
-                        <!-- 🔥COMPONENT PREVIEW PILLS ICON -->
-                        <div id="pills-icon" style="padding-top:80px">
-                            <!-- COMPONENT ITEM -->
-                            <div class="component-item">
-                                <div class="text-primary">
-                                    <h6 class="small">Pills icon</h6>
-                                </div>
-                                <p>You can add a icons too explore more icons <a href="https://icons.getbootstrap.com/"
-                                        target="_blank">here</a></p>
-
-                                <div class="card border border-secondary-100 bg-card-doc">
-                                    <div class="card-body">
-                                        <!-- CODE PILLS ICON PREVIEW ORIGINAL -->
-                                        <div class="row">
-                                            <div class="col-md-7 mx-auto">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <ul class="nav nav-pills">
-                                                            <li class="nav-item">
-                                                                <a class="nav-link active shadow" aria-current="page"
-                                                                    href="#"><i class="bi bi-house"></i>
-                                                                    Active</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#"><i
-                                                                        class="bi bi-person"></i> Profile</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                                <a class="nav-link" href="#"><i class="bi bi-gear"></i>
-                                                                    Setting</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- CODE PILLS ICON PREVIEW ORIGINAL -->
-                                    </div>
-                                </div>
-
-                                <!-- Code block -->
-                                <pre class="language-html shadow">
-                                        <code><!--
-                                    <ul class="nav nav-pills">
-                                        <li class="nav-item">
-                                            <a class="nav-link active shadow" aria-current="page" href="#"><i class="bi bi-house"></i>Active</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#"><i class="bi bi-person"></i> Profile</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#"><i class="bi bi-gear"></i> Setting</a>
-                                        </li>
-                                    </ul>
-                                    --></code>
-                                </pre>
-                            </div>
-                        </div>
-                        <!-- //🔥COMPONENT PREVIEW PILLS ICON -->
+                        <!-- //🔥COMPONENT PREVIEW COLOE SCHEME -->
                     </div>
                 </div>
             </div>
@@ -1088,20 +1094,19 @@
                 </div>
                 <div class="next float-end pb-5">
                     <div class="container">
-                        <a href="/docs/1.0.0/components/navbar.html"
+                        <a href="/docs/1.0.0/components/pagination.html"
                             class="btn btn-white btn-sm shadow-md sm-text-rg">Next:
-                            Navbar <i class='align-middle bx bxs-chevron-right'></i></a>
+                            Pagination <i class='align-middle bx bxs-chevron-right'></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mt-5 d-none d-lg-flex" id="myScrollspy">
                 <ul class="list mt-5" id="simple-list-example">
-                    <li><a href="#base-nav" class="scroll-item">Base nav</a></li>
-                    <li><a href="#horizontal-alignment" class="scroll-item">Horizontal alignment</a></li>
-                    <li><a href="#vertical" class="scroll-item">Vertical</a></li>
-                    <li><a href="#tabs" class="scroll-item">Tabs</a></li>
-                    <li><a href="#pills" class="scroll-item">Pills</a></li>
-                    <li><a href="#pills-icon" class="scroll-item">Pills icon</a></li>
+                    <li><a href="#brand" class="scroll-item">Brand</a></li>
+                    <li><a href="#items" class="scroll-item">Items</a></li>
+                    <li><a href="#form" class="scroll-item">Form</a></li>
+                    <li><a href="#text" class="scroll-item">Text</a></li>
+                    <li><a href="#color-schemes" class="scroll-item">Color schemes</a></li>
                 </ul>
             </div>
         </div>
